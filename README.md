@@ -33,3 +33,9 @@ colcon build
 source ./install/setup.zsh (or bash)
 ros2 run rs_motor_ros2 rs_motor_ros2
 ```
+
+
+### tty
+```
+sudo slcand -o -c -s6 /dev/ttyACM0 can0
+```
